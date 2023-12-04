@@ -1,0 +1,52 @@
+.AddForm {
+    display: flex;
+    flex-direction: column;
+    /* list-style-type: none; */
+    border: 5px green dotted;
+    background-color: rgb(251, 96, 96);
+    padding: 10px;
+    width: 400px;
+    border-radius: 20px;
+    background-image: linear-gradient(#bd2828, rgb(201, 80, 80));
+    margin: 10px;;
+}
+
+.AddForm .form-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.AddForm .to-container, .AddForm .from-container {
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.AddForm .shoutout-container {
+    width: 400px;
+    height: 200px;
+}
+.AddForm .btn-container {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid black 2px;
+    background-image: linear-gradient(#aa0f0f, rgb(201, 80, 80));
+    box-shadow: 1px 2px 6px 3px rgb(238, 99, 99);
+   margin-top: 10px;
+   font-weight: 900;
+}
+
+.AddForm .btn-container:hover {
+cursor: grab;
+}
+
+.AddForm label{
+    padding-top:10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+img {
+    width: 50px;
+}

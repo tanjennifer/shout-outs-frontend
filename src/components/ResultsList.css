@@ -1,0 +1,22 @@
+.ResultsList {
+    list-style-type: none;
+    border: 5px green dotted;
+    background-color: rgb(251, 96, 96);
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background-image: linear-gradient(#aa0f0f, rgb(201, 80, 80));
+}
+
+.ResultsList .delete-btn {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid black 2px;
+    background-image: linear-gradient(#aa0f0f, rgb(201, 80, 80));
+    box-shadow: 1px 2px 6px 3px rgb(238, 99, 99);
+    margin-top: 10px;
+    font-weight: 900;
+}

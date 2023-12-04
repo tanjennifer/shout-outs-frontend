@@ -1,0 +1,51 @@
+/* html {
+    height: 100vh;
+} */
+
+h1, p , body, main {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(#ef9090, rgb(106, 136, 111));
+}
+
+/* main {
+    margin: 50px;
+} */
+
+@media only screen and (min-width: 768px) {
+
+    main{
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 50px;
+    }
+
+    /* header {
+        display: flex;
+        justify-content: center;
+    } */
+
+    .AddForm{
+        display: flex;
+        flex: 1; 
+        /* height: 500px;
+        width: 200px; */
+    }
+
+    .ListShoutout{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    /* .ResultsList {
+        height: 50px;
+    } */
+}
+
