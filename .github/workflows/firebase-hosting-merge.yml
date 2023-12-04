@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
       - run: npm ci && npm run build
         env:
-          VITE_APP_BASEURL: https://us-central1-shoutouts-b2f72.cloudfunctions.net/api
+          VITE_APP_BASEURL: "${{ secrets.VITE_APP_BASEURL }}"
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
