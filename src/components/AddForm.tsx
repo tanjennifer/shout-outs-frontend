@@ -2,7 +2,7 @@ import { FormEvent, useContext, useEffect, useRef, useState } from "react";
 import "./AddForm.css";
 import Shoutout from "../models/Shoutout";
 import AuthContext from "../context/AuthContext";
-import { storage } from "../firebaseApp";
+import { storage } from "../firebaseConfig";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage"; // ref is a fn that takes a storage ^ and string
 
 interface Props {
