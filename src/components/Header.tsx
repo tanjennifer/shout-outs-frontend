@@ -1,14 +1,14 @@
 import { useContext, useEffect, useState } from "react";
 import "./Header.css";
 import { Link, useNavigate } from "react-router-dom";
-import { signInWithGoogle, signOut } from "../firebaseConfig";
+import { signInWithGoogle, signOut } from "../firebaseApp";
 import AuthContext from "../context/AuthContext";
 
 const Header = () => {
   const { user } = useContext(AuthContext);
   const [name, setName] = useState("");
   const history = useNavigate();
-  console.log(history);
+  // console.log(history);
 
   // // console.log(window.location.href);
   // const urlPath = window.location.href;
@@ -28,7 +28,7 @@ const Header = () => {
     } else {
       setName("");
     }
-  }, [urlPath]);
+  }, [history]);
 
   return (
     <header className="Header">
